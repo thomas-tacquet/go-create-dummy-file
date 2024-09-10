@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func createLargeFile(filename string, size int64) error {
+func CreateLargeFile(filename string, size int64) error {
 	// Create or open the file for writing
 	file, err := os.Create(filename)
 	if err != nil {
