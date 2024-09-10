@@ -2,12 +2,18 @@
 
 A simple function to create dummy file, useful for testing.
 
-Usage:
+## Usage
+
+Run `go get github.com/thomas-tacquet/go-create-dummy-file`
 
 ```go
 package main
 
-import "github.com/thomas-tacquet/go-create-dummy-file"
+import (
+	"fmt"
+
+	gocreatedummyfile "github.com/thomas-tacquet/go-create-dummy-file"
+)
 
 func main() {
 	// Example: Create a file of 5GB size
@@ -17,4 +23,3 @@ func main() {
 	}
 }
 ```
-
